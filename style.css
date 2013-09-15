@@ -1,0 +1,53 @@
+#container {
+	background: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0px;
+}
+
+body {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#show{
+	top: 10px;
+	left: 10px;
+}
+
+#flip{
+	top: 10px;
+	left: 210px;
+}
+
+#hide{
+	top: 10px;
+	left: 410px;
+}
+
+.button{
+	font-family: sans-serif;
+	position: fixed;
+	background: none repeat scroll 0 0 #3498DB;
+	/*box-shadow: 0 0.25em 0 0 #2077B2;*/
+	color: #F6F6F6 !important;
+	text-shadow: 0 1px 0 #3498DB;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-border-radius: 0.33em 0.33em 0.33em 0.33em;
+	-moz-border-radius: 0.33em 0.33em 0.33em 0.33em;
+	border-radius: 0.33em 0.33em 0.33em 0.33em;
+	cursor: pointer;
+	display: block;
+	font-weight: 400;
+	line-height: 1.5;
+	padding: 0.5rem 1rem 0.4rem;
+	text-decoration: none;
+	-moz-box-sizing: border-box;
+	width: 100px;
+	text-align: center;
+}
